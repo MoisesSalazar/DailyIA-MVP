@@ -1,0 +1,1 @@
+import{y as t}from"./app-Cb7TLskx.js";const e=new Date,n=e.getFullYear(),r=e.getMonth()+1,s=t({year:n,month:r,essential_needs_percentage:0,savings_percentage:0,discretionary_spending_percentage:0,wallet:null});export{s};

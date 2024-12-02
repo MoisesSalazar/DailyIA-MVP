@@ -1,0 +1,1 @@
+import{_ as o}from"./AppLayout-CNOA8Xlb.js";import{o as r,c as a,w as s}from"./app-Cb7TLskx.js";import"./_plugin-vue_export-helper-DlAUqK2U.js";const c={__name:"Dashboard",setup(e){return(_,t)=>(r(),a(o,{title:"Dashboard"},{content:s(()=>t[0]||(t[0]=[])),_:1}))}};export{c as default};
