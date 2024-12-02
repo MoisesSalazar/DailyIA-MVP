@@ -9,7 +9,7 @@ import Transaction from './Transaction.vue';
 import Analytic from './Analytic.vue';
 import Button from '@/Components/Button.vue';
 import { toast } from 'vue3-toastify';
-import { store } from '@/store/store.js'; // Importa el store
+import { store } from '@/Store/store.js'; // Importa el store
 
 const props = defineProps({
     authToken: {
