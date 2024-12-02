@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('transactions', function (Blueprint $table) {
-            $table->uuid('tag_id')->references('id')->on('tags')->noActionOnDelete()->nullable(); // Nueva columna
+          //  $table->uuid('tag_id')->references('id')->on('tags')->noActionOnDelete()->nullable(); // Nueva columna
         });
     }
 
@@ -22,7 +22,7 @@ return new class extends Migration
     public function down(): void
     {
         Schema::table('transactions', function (Blueprint $table) {
-            $table->dropColumn('tag_id'); // Eliminamos la columna
+        //    $table->dropColumn('tag_id'); // Eliminamos la columna
         });
     }
 };
