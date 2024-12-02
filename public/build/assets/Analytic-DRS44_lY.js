@@ -1,1 +1,0 @@
-import{s as t}from"./store-DRSfkTDY.js";import{d as r,p as s,o as n,e as o,a,t as l,u as p}from"./app-Cb7TLskx.js";const f={__name:"Analytic",setup(u){return r(""),s(()=>{}),(i,e)=>(n(),o("div",null,[e[0]||(e[0]=a("h1",null,"Analityc",-1)),a("p",null,l(p(t).year),1)]))}};export{f as default};
